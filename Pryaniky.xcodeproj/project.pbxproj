@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		122D9628266F931900893EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D9627266F931900893EE1 /* AppDelegate.swift */; };
 		122D962A266F931900893EE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D9629266F931900893EE1 /* SceneDelegate.swift */; };
-		122D962C266F931900893EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D962B266F931900893EE1 /* ViewController.swift */; };
-		122D962F266F931900893EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122D962D266F931900893EE1 /* Main.storyboard */; };
+		122D962C266F931900893EE1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D962B266F931900893EE1 /* MainViewController.swift */; };
 		122D9631266F931C00893EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122D9630266F931C00893EE1 /* Assets.xcassets */; };
 		122D9634266F931C00893EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122D9632266F931C00893EE1 /* LaunchScreen.storyboard */; };
+		122D963C266F932A00893EE1 /* PryanikyEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D963B266F932A00893EE1 /* PryanikyEndpoint.swift */; };
+		122D963E266F937400893EE1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D963D266F937400893EE1 /* Model.swift */; };
+		122D9640266F97E700893EE1 /* PryanikyProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D963F266F97E700893EE1 /* PryanikyProviderProtocol.swift */; };
+		122D9642266F989000893EE1 /* PryanikyProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D9641266F989000893EE1 /* PryanikyProviderService.swift */; };
+		122D9648266FF0B600893EE1 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D9647266FF0B600893EE1 /* Row.swift */; };
+		122D964A266FF78100893EE1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D9649266FF78100893EE1 /* CustomCell.swift */; };
+		122D964D2670194B00893EE1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D964C2670194B00893EE1 /* AppCoordinator.swift */; };
+		122D964F267019B900893EE1 /* MainListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D964E267019B900893EE1 /* MainListCoordinator.swift */; };
+		122D965426701AD900893EE1 /* MainListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D965326701AD900893EE1 /* MainListViewModel.swift */; };
+		122D96562670A47500893EE1 /* AlertViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D96552670A47500893EE1 /* AlertViewCoordinator.swift */; };
+		122D96582670A5EF00893EE1 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D96572670A5EF00893EE1 /* AlertViewController.swift */; };
+		122D965A2670A62000893EE1 /* AlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D96592670A62000893EE1 /* AlertContainerView.swift */; };
+		122D965C2670A66A00893EE1 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D965B2670A66A00893EE1 /* TitleLabel.swift */; };
+		122D965E2670A6BE00893EE1 /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D965D2670A6BE00893EE1 /* BodyLabel.swift */; };
+		122D96602670A6F700893EE1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D965F2670A6F700893EE1 /* CustomButton.swift */; };
+		122D96632670BB1A00893EE1 /* AlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D96622670BB1A00893EE1 /* AlertViewModel.swift */; };
+		73AB058B06417009F9D261AD /* Pods_Pryaniky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234495A1B10A3057FF5FAB73 /* Pods_Pryaniky.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		122D9624266F931900893EE1 /* Pryaniky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pryaniky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		122D9627266F931900893EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		122D9629266F931900893EE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		122D962B266F931900893EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		122D962E266F931900893EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		122D962B266F931900893EE1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		122D9630266F931C00893EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		122D9633266F931C00893EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		122D9635266F931C00893EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122D963B266F932A00893EE1 /* PryanikyEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyEndpoint.swift; sourceTree = "<group>"; };
+		122D963D266F937400893EE1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		122D963F266F97E700893EE1 /* PryanikyProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyProviderProtocol.swift; sourceTree = "<group>"; };
+		122D9641266F989000893EE1 /* PryanikyProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyProviderService.swift; sourceTree = "<group>"; };
+		122D9647266FF0B600893EE1 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		122D9649266FF78100893EE1 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		122D964C2670194B00893EE1 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		122D964E267019B900893EE1 /* MainListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListCoordinator.swift; sourceTree = "<group>"; };
+		122D965326701AD900893EE1 /* MainListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewModel.swift; sourceTree = "<group>"; };
+		122D96552670A47500893EE1 /* AlertViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewCoordinator.swift; sourceTree = "<group>"; };
+		122D96572670A5EF00893EE1 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		122D96592670A62000893EE1 /* AlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContainerView.swift; sourceTree = "<group>"; };
+		122D965B2670A66A00893EE1 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		122D965D2670A6BE00893EE1 /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
+		122D965F2670A6F700893EE1 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		122D96622670BB1A00893EE1 /* AlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModel.swift; sourceTree = "<group>"; };
+		1650A8003B3A08316760CC01 /* Pods-Pryaniky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pryaniky.release.xcconfig"; path = "Target Support Files/Pods-Pryaniky/Pods-Pryaniky.release.xcconfig"; sourceTree = "<group>"; };
+		234495A1B10A3057FF5FAB73 /* Pods_Pryaniky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pryaniky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52AB9EF231550780486D3DE /* Pods-Pryaniky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pryaniky.debug.xcconfig"; path = "Target Support Files/Pods-Pryaniky/Pods-Pryaniky.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AB058B06417009F9D261AD /* Pods_Pryaniky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				122D9626266F931900893EE1 /* Pryaniky */,
 				122D9625266F931900893EE1 /* Products */,
+				133238868F271BD5421DF60B /* Pods */,
+				5EC5CF0E4247F000BD7071E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,103 @@
 		122D9626266F931900893EE1 /* Pryaniky */ = {
 			isa = PBXGroup;
 			children = (
-				122D9627266F931900893EE1 /* AppDelegate.swift */,
 				122D9629266F931900893EE1 /* SceneDelegate.swift */,
-				122D962B266F931900893EE1 /* ViewController.swift */,
-				122D962D266F931900893EE1 /* Main.storyboard */,
+				122D965226701AB600893EE1 /* ViewModels */,
+				122D964B2670193800893EE1 /* Coordinators */,
+				122D9645266FE87E00893EE1 /* Screens */,
+				122D9644266FE87100893EE1 /* Models */,
+				122D9643266FE6D900893EE1 /* Managers */,
+				122D96612670A97800893EE1 /* Custom Views */,
+				122D9646266FE88D00893EE1 /* Supporting files */,
+			);
+			path = Pryaniky;
+			sourceTree = "<group>";
+		};
+		122D9643266FE6D900893EE1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				122D963B266F932A00893EE1 /* PryanikyEndpoint.swift */,
+				122D963F266F97E700893EE1 /* PryanikyProviderProtocol.swift */,
+				122D9641266F989000893EE1 /* PryanikyProviderService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		122D9644266FE87100893EE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				122D963D266F937400893EE1 /* Model.swift */,
+				122D9647266FF0B600893EE1 /* Row.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		122D9645266FE87E00893EE1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				122D962B266F931900893EE1 /* MainViewController.swift */,
+				122D96572670A5EF00893EE1 /* AlertViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		122D9646266FE88D00893EE1 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				122D9627266F931900893EE1 /* AppDelegate.swift */,
 				122D9630266F931C00893EE1 /* Assets.xcassets */,
 				122D9632266F931C00893EE1 /* LaunchScreen.storyboard */,
 				122D9635266F931C00893EE1 /* Info.plist */,
 			);
-			path = Pryaniky;
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		122D964B2670193800893EE1 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				122D964C2670194B00893EE1 /* AppCoordinator.swift */,
+				122D964E267019B900893EE1 /* MainListCoordinator.swift */,
+				122D96552670A47500893EE1 /* AlertViewCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		122D965226701AB600893EE1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				122D965326701AD900893EE1 /* MainListViewModel.swift */,
+				122D96622670BB1A00893EE1 /* AlertViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		122D96612670A97800893EE1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				122D9649266FF78100893EE1 /* CustomCell.swift */,
+				122D96592670A62000893EE1 /* AlertContainerView.swift */,
+				122D965B2670A66A00893EE1 /* TitleLabel.swift */,
+				122D965D2670A6BE00893EE1 /* BodyLabel.swift */,
+				122D965F2670A6F700893EE1 /* CustomButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		133238868F271BD5421DF60B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E52AB9EF231550780486D3DE /* Pods-Pryaniky.debug.xcconfig */,
+				1650A8003B3A08316760CC01 /* Pods-Pryaniky.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5EC5CF0E4247F000BD7071E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234495A1B10A3057FF5FAB73 /* Pods_Pryaniky.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 122D9638266F931C00893EE1 /* Build configuration list for PBXNativeTarget "Pryaniky" */;
 			buildPhases = (
+				9E19E76C0C2FE19575A6904D /* [CP] Check Pods Manifest.lock */,
 				122D9620266F931900893EE1 /* Sources */,
 				122D9621266F931900893EE1 /* Frameworks */,
 				122D9622266F931900893EE1 /* Resources */,
+				57BAB84068FE0FDE70CF7C27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +253,76 @@
 			files = (
 				122D9634266F931C00893EE1 /* LaunchScreen.storyboard in Resources */,
 				122D9631266F931C00893EE1 /* Assets.xcassets in Resources */,
-				122D962F266F931900893EE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57BAB84068FE0FDE70CF7C27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pryaniky/Pods-Pryaniky-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pryaniky/Pods-Pryaniky-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pryaniky/Pods-Pryaniky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E19E76C0C2FE19575A6904D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pryaniky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		122D9620266F931900893EE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				122D962C266F931900893EE1 /* ViewController.swift in Sources */,
+				122D965426701AD900893EE1 /* MainListViewModel.swift in Sources */,
+				122D96582670A5EF00893EE1 /* AlertViewController.swift in Sources */,
+				122D96602670A6F700893EE1 /* CustomButton.swift in Sources */,
+				122D963E266F937400893EE1 /* Model.swift in Sources */,
+				122D965A2670A62000893EE1 /* AlertContainerView.swift in Sources */,
+				122D962C266F931900893EE1 /* MainViewController.swift in Sources */,
+				122D96562670A47500893EE1 /* AlertViewCoordinator.swift in Sources */,
+				122D964D2670194B00893EE1 /* AppCoordinator.swift in Sources */,
+				122D965E2670A6BE00893EE1 /* BodyLabel.swift in Sources */,
 				122D9628266F931900893EE1 /* AppDelegate.swift in Sources */,
+				122D9648266FF0B600893EE1 /* Row.swift in Sources */,
+				122D96632670BB1A00893EE1 /* AlertViewModel.swift in Sources */,
+				122D964A266FF78100893EE1 /* CustomCell.swift in Sources */,
+				122D964F267019B900893EE1 /* MainListCoordinator.swift in Sources */,
+				122D9642266F989000893EE1 /* PryanikyProviderService.swift in Sources */,
+				122D963C266F932A00893EE1 /* PryanikyEndpoint.swift in Sources */,
+				122D965C2670A66A00893EE1 /* TitleLabel.swift in Sources */,
+				122D9640266F97E700893EE1 /* PryanikyProviderProtocol.swift in Sources */,
 				122D962A266F931900893EE1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +330,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		122D962D266F931900893EE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				122D962E266F931900893EE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		122D9632266F931C00893EE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +459,13 @@
 		};
 		122D9639266F931C00893EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52AB9EF231550780486D3DE /* Pods-Pryaniky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FT674V95S;
-				INFOPLIST_FILE = Pryaniky/Info.plist;
+				INFOPLIST_FILE = "Pryaniky/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +473,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = che.tech.Pryaniky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		122D963A266F931C00893EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1650A8003B3A08316760CC01 /* Pods-Pryaniky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FT674V95S;
-				INFOPLIST_FILE = Pryaniky/Info.plist;
+				INFOPLIST_FILE = "Pryaniky/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = che.tech.Pryaniky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
