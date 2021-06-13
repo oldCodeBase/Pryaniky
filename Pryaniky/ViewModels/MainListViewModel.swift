@@ -32,8 +32,17 @@ final class MainListViewModel {
     }
     
     var sortedModel: [DataResponse] {
-        guard let dataModel = model?.data else { return [DataResponse]() }
-        let sortedData = dataModel.sorted { $0.name.hashValue < $1.name.hashValue }
+        guard let data  = model?.data, let views = model?.view else { return [] }
+        var sortedData: [DataResponse] = []
+        
+        views.forEach { view in
+            if let sortedElement = data.first(where: { $0.name == view }) {
+                if sortedData.count < data.count {
+                    sortedData.append(sortedElement)
+                }
+            }
+        }
+        
         return sortedData
     }
 }
