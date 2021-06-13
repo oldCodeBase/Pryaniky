@@ -15,7 +15,7 @@
 <table border=0>
     <tr>
         <td>
-            <img src=https://github.com/sageibra/Pryaniky/blob/main/screenshots/screenRecord.gif width=250 align=center>
+            <img src=https://github.com/sageibra/Pryaniky/blob/main/screenshots/screenRecord.gif width=230 align=center>
         </td>
     </tr>
 </table>
